@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct ContentView: View {
+    // If the selectedTab is initialized with `1`, the onAppear of the thirdView will be executed too.
     @State private var selectedTab = 0
 
     var body: some View {
